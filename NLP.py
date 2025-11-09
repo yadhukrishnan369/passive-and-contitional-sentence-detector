@@ -22,7 +22,7 @@ os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
 # ------------------------ GEMINI SETUP ------------------------
 
-genai.configure(api_key="AIzaSyD9YVWEXIDux7ugDCCZp8WRta0L0Div-sY")
+genai.configure(api_key="Your Gemini API")
 MODEL_NAME = "gemini-2.5-flash-lite"
 model = genai.GenerativeModel(MODEL_NAME)
 
